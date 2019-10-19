@@ -5,13 +5,14 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-	"server": "nodemon server"
+    "server": "nodemon server"
   },
   "author": "Luke Colpo",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.3",
+    "eslint-config-airbnb": "^18.0.1",
     "express": "^4.17.1",
     "express-validator": "^6.2.0",
     "gravatar": "^1.8.0",
